@@ -3,7 +3,7 @@ import "./RightContent.css";
 import { CircularProgressbar } from "react-circular-progressbar";
 import "react-circular-progressbar/dist/styles.css";
 import image from "../../assets/landscape.jpg";
-import image1 from "../../assets/demo.jpg";
+import image1 from "../../assets/Imahe.jpg";
 import ErrorOutlineIcon from "@mui/icons-material/ErrorOutline";
 function RightContent() {
   const percentage = 66;
@@ -13,9 +13,9 @@ function RightContent() {
       <figure>
         <img src={image1} alt="me" className="myImg" />
         <figcaption>
-          Asutosh Acharya
+          Bidhubhushan Gahan
           <br />
-          <article>Product Designer</article>
+          <article>FrontEnd Developer</article>
         </figcaption>
       </figure>
       <div className="details">
